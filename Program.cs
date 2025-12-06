@@ -1,6 +1,6 @@
 ﻿using AdventOfCode;
 
-// DayOne.Solve();
-// DayTwo.Solve();
-// DayThree.Solve();
+//DayOne.Solve();
+//DayTwo.Solve();
+//DayThree.Solve();
 DayFour.Solve();

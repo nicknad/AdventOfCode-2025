@@ -6,7 +6,7 @@ namespace AdventOfCode;
 internal static class DayOne
 {
     public static void Solve() {
-        var lines = File.ReadAllLines("Day1\\Input.txt");
+        var lines = File.ReadAllLines("Day1\\input.txt");
         int curr_pos = 50;
         int result = 0;
         bool started_null = false;

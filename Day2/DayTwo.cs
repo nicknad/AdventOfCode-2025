@@ -7,7 +7,7 @@ internal static class DayTwo
 {
     public static void Solve()
     {
-        string input = File.ReadAllText("Day2\\input-part1.txt");
+        string input = File.ReadAllText("Day2\\input.txt");
         ReadOnlySpan<char> input_span = input.AsSpan();
         long result = 0;
 
