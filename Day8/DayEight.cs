@@ -18,7 +18,6 @@ internal static class DayEight
             return new(x, y, z);
         }
     }
-    internal record Circuit(List<JunctionBox> Boxes);
     internal readonly record struct Connection(JunctionBox Source, JunctionBox Target, long Distance)
     {
         public Connection(JunctionBox Source, JunctionBox Target) : this(Source, Target, Source.distance_to(Target)) { }
